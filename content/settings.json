@@ -14,12 +14,12 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "December Design & Development LLC" },
+    "logo": { "text": "December Design & Development" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Services", "url": "/services" },
-        { "label": "Features", "url": "/#features" },
+        { "label": "Portfolio", "url": "/#portfolio" },
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {
