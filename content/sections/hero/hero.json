@@ -1,5 +1,5 @@
 {
-  "intro": "Hej",
+  "intro": "Hello!",
   "heroPhoto": {
     "src": "../../images/lego-dummy.png",
     "alt": "My Photo"
@@ -8,13 +8,13 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm a web engineer.",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
+    "prefix": "I handle all of your web development work ",
+    "highlight": "so you don't have to",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "December Design & Development is a software development consultancy here for all of your web development needs. See our Services for more info.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github"],
     "showIcons": true

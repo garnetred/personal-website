@@ -1,13 +1,13 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "siteUrl": "www.decemberdesignanddevelopment.com",
+    "title": "December Design & Development",
+    "titleTemplate": "",
+    "description": "The business home for December Design & Development, a software development consultancy for all your web development needs.",
+    "author": "December Garnet-Smith",
     "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "I'm December Garnet-Smith. I'm a software engineer with a focus on creating accessible and inclusive user experiences to make your life easier.",
     "social": {
       "github": "https://github.com/garnetred",
       "linkedin": "https://www.linkedin.com/in/dgarnetsmith/"
@@ -20,7 +20,7 @@
         { "label": "About", "url": "/#about" },
         { "label": "Services", "url": "/services" },
         { "label": "Portfolio", "url": "/#portfolio" },
-        { "label": "Contact", "url": "/#contact" }
+        { "label": "Contact", "url": "/contact" }
       ],
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
@@ -30,7 +30,7 @@
     "featureToggles": {
       "useDarkModeAsDefault": false,
       "useDarkModeBasedOnUsersPreference": true,
-      "useCookieBar": false
+      "useCookieBar": true
     }
   }
 }
