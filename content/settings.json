@@ -20,13 +20,8 @@
         { "label": "About", "url": "/#about" },
         { "label": "Services", "url": "/services" },
         { "label": "Portfolio", "url": "/#portfolio" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Contact", "url": "/#contact" }
       ],
-      "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
-      },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
         { "label": "Imprint", "url": "/imprint" }
