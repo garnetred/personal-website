@@ -14,7 +14,7 @@ export default function IndexPage() {
   return (
     <>
       <Seo title="December Design & Development LLC" />
-      <Page useSplashScreenAnimation>
+      <Page>
         <HeroSection sectionId="hero" />
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         <AboutSection sectionId="about" heading="About Me" />
