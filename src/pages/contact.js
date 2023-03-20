@@ -2,7 +2,7 @@ import React from "react";
 import * as Contact from "./contact.css";
 import { Page, Seo } from "gatsby-theme-portfolio-minimal";
 
-export default function PrivacyPage() {
+export default function ContactPage() {
   return (
     <>
       <Seo title="Contact Us" useTitleTemplate={true} noIndex={true} />
