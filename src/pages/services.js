@@ -1,12 +1,11 @@
 import React from 'react';
 import { Page, Seo, Section } from 'gatsby-theme-portfolio-minimal';
 
-export default function ServicesPage(props) {
-  console.log(props);
+export default function ServicesPage() {
   return (
     <>
       <Seo title="Services" useTitleTemplate={true} noIndex={false} />
-      <Section heading="Services" id={props.sectionId}>
+      <Section heading="Services" anchor="services">
         <p className="services-details">
           Here are a few examples of the type of projects that December Design &
           Development can assist with:

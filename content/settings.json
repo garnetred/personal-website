@@ -6,11 +6,11 @@
     "titleTemplate": "",
     "description": "The business home for December Design & Development, a software development consultancy for all your web development needs.",
     "author": "December Garnet-Smith",
-    "avatar": "../content/images/gatsby.png",
+    "avatar": "../content/images/cyclone.png",
     "bio": "I'm December Garnet-Smith. I'm a software engineer with a focus on creating accessible and inclusive user experiences to make your life easier.",
     "social": {
       "github": "https://github.com/garnetred",
-      "linkedin": "https://www.linkedin.com/in/dgarnetsmith/"
+      "linkedin": "https://www.linkedin.com/in/dgarnetsmith"
     }
   },
   "siteConfiguration": {
@@ -18,14 +18,11 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Services", "url": "/#services" },
         { "label": "Portfolio", "url": "/#portfolio" },
+        { "label": "Services", "url": "/#services" },
         { "label": "Contact", "url": "/#contact" }
       ],
-      "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
-      ]
+      "footer": []
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
