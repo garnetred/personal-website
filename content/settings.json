@@ -18,9 +18,9 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Services", "url": "/services" },
+        { "label": "Services", "url": "/#services" },
         { "label": "Portfolio", "url": "/#portfolio" },
-        { "label": "Contact", "url": "/contact" }
+        { "label": "Contact", "url": "/#contact" }
       ],
       "footer": [
         { "label": "Privacy", "url": "/privacy" },

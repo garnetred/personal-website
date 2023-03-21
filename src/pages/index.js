@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   AboutSection,
   ArticlesSection,
@@ -8,7 +8,9 @@ import {
   Page,
   ProjectsSection,
   Seo,
-} from "gatsby-theme-portfolio-minimal";
+} from 'gatsby-theme-portfolio-minimal';
+import ServicesPage from './services';
+import ContactPage from './contact';
 
 export default function IndexPage() {
   return (
@@ -20,6 +22,8 @@ export default function IndexPage() {
         <AboutSection sectionId="about" heading="About Me" />
         <InterestsSection sectionId="details" heading="Skills" />
         <ProjectsSection sectionId="portfolio" heading="Portfolio" />
+        <ServicesPage sectionId="services"/>
+        <ContactPage />
         {/* <ContactSection sectionId="contact" heading="Contact" /> */}
       </Page>
     </>
