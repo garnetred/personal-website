@@ -2,28 +2,44 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "Personal Projects",
+      "title": "Loc Collective",
+      "description": "Just moved to a new city and having difficulty finding a loctician? The Loc Collective website is here to help. Just select the type of locs from the dropdown menu and input a city name. We'll craft a list of locticians that offer those services. You can view more information about each loctician via Yelp. This application consumes the Yelp API. The tech stack is as follows: React, Node, Jest, and React Testing Library.",
+      "tags": ["Portfolio", "Projects"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/loc-collective-screenshot-hi-res.png",
+        "alt": "Screenshot of the Loc Collective website showing a black woman with locs smiling, an open drop down menu with several hairstyles listed, and an empty search bar.",
+        "linkTo": "https://loccollective.netlify.app"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/garnetred/loc-collective"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/garnetred/loc-collective-backend"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://loccollective.netlify.app"
         }
       ]
     },
     {
       "visible": true,
+      "category": "Client Projects",
+      "title": "Software Project",
+      "description": "This legacy application filters through multiple CSV files to find matches across files. In my work with this client, I've created an entire test suite from scratch using Jest, identified bugs and edge cases, etc.",
+      "tags": ["Portfolio", "Projects", "Client Projects"],
+      "image": {
+        "src": "../../images/wba-client-screenshot.png",
+        "alt": "Screenshot of a client website showing a dropdown menu that is unselected, two drag and drop file areas, and a submit button."
+      },
+      "links": []
+    },
+    {
+      "visible": false,
       "category": "🧰 EXTENDABLE LAYOUT",
       "title": "Add more sections!",
       "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
@@ -41,7 +57,7 @@
     }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "Visit on Github",
     "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
   }
