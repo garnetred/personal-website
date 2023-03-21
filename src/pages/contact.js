@@ -1,5 +1,4 @@
 import React from 'react';
-import * as Contact from './contact.css';
 import { Page, Seo, Section } from 'gatsby-theme-portfolio-minimal';
 
 export default function ContactPage() {
