@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "gatsby": "^5.0.1",
+    "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-theme-portfolio-minimal": "latest",
+    "gatsby-transformer-inline-svg": "^1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -29,6 +31,6 @@
     "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
   },
   "keywords": [
-  "portfolio"
+    "portfolio"
   ]
 }
