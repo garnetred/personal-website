@@ -3,7 +3,7 @@
     "language": "en",
     "siteUrl": "www.decemberdevelopment.com",
     "title": "December Design & Development",
-    "titleTemplate": "December Design & Development",
+    "titleTemplate": "%s - ",
     "thumbnail": "../content/images/main-logo.png",
     "description": "The business home for December Design & Development, a software development consultancy for all your web development needs.",
     "author": "December Garnet-Smith",
@@ -15,7 +15,9 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "December Design & Development" },
+    "logo": {
+      "text": "December Design & Development"
+    },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
