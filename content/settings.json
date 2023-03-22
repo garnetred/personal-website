@@ -1,9 +1,10 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "www.decemberdesignanddevelopment.com",
+    "siteUrl": "www.decemberdevelopment.com",
     "title": "December Design & Development",
-    "titleTemplate": "",
+    "titleTemplate": "December Design & Development",
+    "thumbnail": "../content/images/main-logo.png",
     "description": "The business home for December Design & Development, a software development consultancy for all your web development needs.",
     "author": "December Garnet-Smith",
     "avatar": "../content/images/cyclone.png",
@@ -27,7 +28,7 @@
     "featureToggles": {
       "useDarkModeAsDefault": false,
       "useDarkModeBasedOnUsersPreference": true,
-      "useCookieBar": true
+      "useCookieBar": false
     }
   }
 }
