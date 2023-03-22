@@ -9,7 +9,7 @@
       "image": {
         "src": "../../images/loc-collective-screenshot-hi-res.png",
         "alt": "Screenshot of the Loc Collective website showing a black woman with locs smiling, an open drop down menu with several hairstyles listed, and an empty search bar.",
-        "linkTo": "https://loccollective.netlify.app"
+        "linkTo": "https://loccollective.com"
       },
       "links": [
         {
@@ -22,7 +22,7 @@
         },
         {
           "type": "external",
-          "url": "https://loccollective.netlify.app"
+          "url": "https://loccollective.com"
         }
       ]
     },

@@ -1,9 +1,10 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "www.decemberdesignanddevelopment.com",
+    "siteUrl": "www.decemberdevelopment.com",
     "title": "December Design & Development",
-    "titleTemplate": "",
+    "titleTemplate": "%s - ",
+    "thumbnail": "../content/images/main-logo.png",
     "description": "The business home for December Design & Development, a software development consultancy for all your web development needs.",
     "author": "December Garnet-Smith",
     "avatar": "../content/images/cyclone.png",
@@ -14,7 +15,9 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "December Design & Development" },
+    "logo": {
+      "text": "December Design & Development"
+    },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
@@ -27,7 +30,7 @@
     "featureToggles": {
       "useDarkModeAsDefault": false,
       "useDarkModeBasedOnUsersPreference": true,
-      "useCookieBar": true
+      "useCookieBar": false
     }
   }
 }

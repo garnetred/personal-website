@@ -4,7 +4,7 @@ import { Page, Seo, Section } from 'gatsby-theme-portfolio-minimal';
 export default function ServicesPage() {
   return (
     <>
-      <Seo title="Services" useTitleTemplate={true} noIndex={false} />
+      <Seo useTitleTemplate={true} />
       <Section heading="Services" anchor="services">
         <p className="services-details">
           Here are a few examples of the type of projects that December Design &
