@@ -21,7 +21,7 @@ export default function ServicesPage() {
         <li>transitioning from a website builder to a custom website</li>
         <li>complex projects that range from a few days to several months</li>
         <p class="services-details">
-          Please reach out via the <a href="/#contact">contact form</a> if
+          Please reach out to me via the <a href="/#contact">contact form</a> if
           interested in learning more.
         </p>
       </Section>
