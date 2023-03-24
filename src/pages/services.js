@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Seo, Section } from 'gatsby-theme-portfolio-minimal';
+import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
 
 export default function ServicesPage() {
   return (
