@@ -25,14 +25,15 @@ export default function ContactPage() {
     alert('your message has been sent successfully');
   };
 
-  const displayErrorMessage = () => {
-    // if (this.state.location === "") {
-    //   this.setState({ locationError: true });
-    // }
-    // if (this.state.style === "") {
-    //   this.setState({ styleError: true });
-    // }
-  };
+  // const displayErrorMessage = () => {
+  //   // if (this.state.location === "") {
+  //   //   this.setState({ locationError: true });
+  //   // }
+  //   // if (this.state.style === "") {
+  //   //   this.setState({ styleError: true });
+  //   // }
+  // };
+
   return (
     <>
       <Seo useTitleTemplate={true} />
@@ -50,7 +51,9 @@ export default function ContactPage() {
               data-testid="contactform"
               method="POST"
               data-netlify="true"
+              netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="bot-field" />
               <p className="contact-form-labels">Name:</p>
               <input type="hidden" name="form-name" value="contact-form" />
               <input
@@ -74,7 +77,7 @@ export default function ContactPage() {
                 onChange={(e) => handleChange(e)}
                 required
               />
-              <p className="contact-form-labels">Comments:</p>
+              <p className="contact-form-labels">Message:</p>
               <textarea
                 className="message-input"
                 type="textarea"
