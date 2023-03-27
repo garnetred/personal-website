@@ -31,7 +31,6 @@ export default function ContactPage() {
 
   const submitForm = (e) => {
     e.preventDefault();
-    alert('your message has been sent successfully');
     const form = e.target;
     fetch('/', {
       method: 'POST',
