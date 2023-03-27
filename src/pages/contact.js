@@ -29,20 +29,20 @@ export default function ContactPage() {
     }
   };
 
-  // const submitForm = (e) => {
-  //   e.preventDefault();
-  //   const form = e.target;
-  //   fetch('/', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  //     body: encode({
-  //       'form-name': form.getAttribute('name'),
-  //       ...state,
-  //     }),
-  //   })
-  //     .then(() => navigate(form.getAttribute('action')))
-  //     .catch((error) => alert(error));
-  // };
+  const submitForm = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error));
+  };
 
   return (
     <>
@@ -63,6 +63,7 @@ export default function ContactPage() {
               data-netlify="true"
               netlify-honeypot="bot-field"
               action="/thankyou/"
+              onSubmit={submitForm}
             >
               <input type="hidden" name="bot-field" />
               <p className="contact-form-labels">Name:</p>
@@ -99,11 +100,7 @@ export default function ContactPage() {
                 onChange={(e) => handleChange(e)}
                 required
               />
-              <button
-                type="submit"
-                className="contact-form-button"
-                // onClick={submitForm}
-              >
+              <button type="submit" className="contact-form-button">
                 submit
               </button>
             </form>
