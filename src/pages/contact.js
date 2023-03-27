@@ -1,7 +1,7 @@
 import React, { useState, state } from 'react';
 import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
 import * as Contact from './contact.css';
-import { navigate } from 'gatsby-link';
+import { navigate } from 'gatsby';
 export default function ContactPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
