@@ -4,7 +4,7 @@ import { Page, Seo, Section } from 'gatsby-theme-portfolio-minimal';
 export default function ThankYou() {
   return (
     <>
-      <Seo title="Thank You" useTitleTemplate={false} noIndex={true} />
+      <Seo noIndex={true} />
       <Page>
         <Section heading="Contact Us">
           <p>
