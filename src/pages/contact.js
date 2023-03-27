@@ -1,7 +1,6 @@
 import React, { useState, state } from 'react';
 import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
 import * as Contact from './contact.css';
-import { navigate } from 'gatsby-link';
 export default function ContactPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -40,7 +39,7 @@ export default function ContactPage() {
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then(() => alert('Your information has been submitted successfully.'))
       .catch((error) => alert(error));
   };
 
