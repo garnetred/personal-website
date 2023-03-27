@@ -2,6 +2,18 @@
   "projects": [
     {
       "visible": true,
+      "category": "Client Projects",
+      "title": "Software Project",
+      "description": "This legacy application filters through multiple CSV files to find matches across files. In my work with this client, I've created an entire test suite from scratch using Jest, identified bugs and edge cases, improved web performance and scaled the application to work with larger datasets, and improved privacy by creating mock data.",
+      "tags": [],
+      "image": {
+        "src": "../../images/wba-client-screenshot.png",
+        "alt": "Screenshot of a client website showing a dropdown menu that is unselected, two drag and drop file areas, and a submit button."
+      },
+      "links": []
+    },
+    {
+      "visible": true,
       "category": "Personal Projects",
       "title": "Loc Collective",
       "description": "Just moved to a new city and having difficulty finding a loctician? The Loc Collective website is here to help. Just select the type of locs from the dropdown menu and input a city name. We'll craft a list of locticians that offer those services. You can view more information about each loctician via Yelp. This application consumes the Yelp API. The tech stack is as follows: React, Node, Jest, and React Testing Library.",
@@ -25,18 +37,6 @@
           "url": "https://loccollective.com"
         }
       ]
-    },
-    {
-      "visible": true,
-      "category": "Client Projects",
-      "title": "Software Project",
-      "description": "This legacy application filters through multiple CSV files to find matches across files. In my work with this client, I've created an entire test suite from scratch using Jest, identified bugs and edge cases, etc.",
-      "tags": [],
-      "image": {
-        "src": "../../images/wba-client-screenshot.png",
-        "alt": "Screenshot of a client website showing a dropdown menu that is unselected, two drag and drop file areas, and a submit button."
-      },
-      "links": []
     },
     {
       "visible": false,
