@@ -14,6 +14,7 @@ public
 .cache
 .husky
 .vscode
+.prettierrc
 
 # misc
 .DS_Store
