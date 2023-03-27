@@ -1,10 +1,19 @@
-import React, { useState } from 'react';
-import { Page, Seo, Section } from 'gatsby-theme-portfolio-minimal';
-import Contact from './contact.css';
+import React, { useState, state } from 'react';
+import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
+import * as Contact from './contact.css';
+import { navigate } from 'gatsby-link';
 export default function ContactPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]),
+      )
+      .join('&');
+  };
 
   const handleChange = (e) => {
     const { name } = e.target;
@@ -23,16 +32,18 @@ export default function ContactPage() {
   const submitForm = (e) => {
     e.preventDefault();
     alert('your message has been sent successfully');
+    const form = e.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error));
   };
-
-  // const displayErrorMessage = () => {
-  //   // if (this.state.location === "") {
-  //   //   this.setState({ locationError: true });
-  //   // }
-  //   // if (this.state.style === "") {
-  //   //   this.setState({ styleError: true });
-  //   // }
-  // };
 
   return (
     <>
@@ -47,7 +58,7 @@ export default function ContactPage() {
           <section className="contact-form-container">
             <form
               className="contact-form"
-              name="contact-form"
+              name="contact"
               data-testid="contactform"
               method="POST"
               data-netlify="true"
