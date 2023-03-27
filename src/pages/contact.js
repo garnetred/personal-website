@@ -1,4 +1,4 @@
-import React, { useState, state } from 'react';
+import React, { useState } from 'react';
 import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
 import * as Contact from './contact.css';
 import { navigate } from 'gatsby';
@@ -32,6 +32,9 @@ export default function ContactPage() {
   const submitForm = (e) => {
     e.preventDefault();
     const form = e.target;
+    console.log('values', name, email, message);
+    const state = { name, email, message };
+    console.log('state', state);
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
