@@ -1,6 +1,7 @@
 import React, { useState, state } from 'react';
 import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
 import * as Contact from './contact.css';
+import { navigate } from 'gatsby-link';
 export default function ContactPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -39,7 +40,7 @@ export default function ContactPage() {
         ...state,
       }),
     })
-      .then(() => alert('Your information has been submitted successfully.'))
+      .then(() => navigate(form.getAttribute('action')))
       .catch((error) => alert(error));
   };
 
@@ -61,6 +62,7 @@ export default function ContactPage() {
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
+              action="/thankyou/"
             >
               <input type="hidden" name="bot-field" />
               <p className="contact-form-labels">Name:</p>
