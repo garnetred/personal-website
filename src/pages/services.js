@@ -20,7 +20,7 @@ export default function ServicesPage() {
         <li>writing technical documentation</li>
         <li>transitioning from a website builder to a custom website</li>
         <li>complex projects that range from a few days to several months</li>
-        <p class="services-details">
+        <p className="services-details">
           Please reach out to me via the <a href="/#contact">contact form</a> if
           interested in learning more.
         </p>
