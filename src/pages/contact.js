@@ -1,7 +1,7 @@
 import React, { useState, state } from 'react';
 import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
 import * as Contact from './contact.css';
-import { navigate } from 'gatsby-link';
+import { navigate } from 'gatsby';
 export default function ContactPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -29,20 +29,20 @@ export default function ContactPage() {
     }
   };
 
-  const submitForm = (e) => {
-    e.preventDefault();
-    const form = e.target;
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...state,
-      }),
-    })
-      .then(() => navigate(form.getAttribute('action')))
-      .catch((error) => alert(error));
-  };
+  // const submitForm = (e) => {
+  //   e.preventDefault();
+  //   const form = e.target;
+  //   fetch('/', {
+  //     method: 'POST',
+  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  //     body: encode({
+  //       'form-name': form.getAttribute('name'),
+  //       ...state,
+  //     }),
+  //   })
+  //     .then(() => navigate(form.getAttribute('action')))
+  //     .catch((error) => alert(error));
+  // };
 
   return (
     <>
@@ -102,7 +102,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 className="contact-form-button"
-                onClick={submitForm}
+                // onClick={submitForm}
               >
                 submit
               </button>
