@@ -1,5 +1,6 @@
 import React from 'react';
 import { Seo, Section } from 'gatsby-theme-portfolio-minimal';
+import './services';
 
 export default function ServicesPage() {
   return (

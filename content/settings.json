@@ -25,7 +25,7 @@
         { "label": "Portfolio", "url": "/#portfolio" },
         { "label": "Contact", "url": "/#contact" }
       ],
-      "footer": []
+      "footer": ["hi"]
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
