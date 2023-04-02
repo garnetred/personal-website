@@ -9,8 +9,8 @@ import {
   ProjectsSection,
   Seo,
 } from 'gatsby-theme-portfolio-minimal';
-import ServicesPage from '../../components/services/services';
-import ContactPage from '../../components/contact/contact';
+import ServicesPage from '../components/services/services';
+import ContactPage from '../components/contact/contact';
 
 export default function IndexPage() {
   return (
