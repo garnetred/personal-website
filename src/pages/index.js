@@ -1,10 +1,8 @@
 import React from 'react';
+import '../styles/global.css';
 import {
   AboutSection,
-  ArticlesSection,
-  ContactSection,
   HeroSection,
-  InterestsSection,
   Page,
   ProjectsSection,
   Seo,
@@ -18,13 +16,10 @@ export default function IndexPage() {
       <Seo title="December Design & Development LLC" />
       <Page>
         <HeroSection sectionId="hero" />
-        {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         <AboutSection sectionId="about" heading="About Me" />
         <ServicesPage />
         <ProjectsSection sectionId="portfolio" heading="Portfolio" />
         <ContactPage />
-        {/* <InterestsSection sectionId="details" heading="Skills" /> */}
-        {/* <ContactSection sectionId="contact" heading="Contact" /> */}
       </Page>
     </>
   );

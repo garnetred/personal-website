@@ -1,0 +1,25 @@
+/* underlines all links and updates the color to improve contrast */
+
+p > a {
+  text-decoration: underline !important;
+  color: #2bdcff !important;
+}
+
+/* updates margin for headings */
+
+.style-module--Heading--2c002 {
+  margin: 0 !important;
+}
+
+/* updates margin-bottom for custom sections and hero section */
+
+section > div,
+.style-module--HeroContainer--061a0 {
+  margin: 0 auto 3rem auto !important;
+}
+
+/* updates margin bottom separate each project */
+
+.style-module--Project--6d27a {
+  margin-bottom: 4rem !important;
+}
