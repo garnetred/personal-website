@@ -4,7 +4,7 @@
 This repository is for the public website for my software development business, December Design & Development.
 
 ## Installation
-You can run this application locally using the command `npm run serve`.
+You can run this application locally using the command `npm run develop`. The application will run on port 8000 by default.
 
 ## Troubleshooting
 This codebase requires at least Node version 18.0.0 in order to run successfully.
