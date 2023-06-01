@@ -5,25 +5,19 @@ export default function ServicesPage() {
   return (
     <>
       <Seo useTitleTemplate={true} />
-      <Section heading="Services" anchor="services">
-        <p className="services-details">
-          Here are a few examples of the type of projects that December Design &
-          Development can assist with:
-        </p>
+      <Section heading="Services" anchor="services" className="hi">
+        <p className="services-details">I specialize in the below services:</p>
         <ul>
-          <li>automating time-consuming processes such as data entry</li>
+          <li>automating data entry via programming</li>
           <li>maintaining existing websites or legacy applications</li>
           <li>
-            offering support to companies while hiring for full-time engineers
+            offering support to companies while hiring full-time engineers
           </li>
           <li>filling in for engineers on leave</li>
-          <li>writing technical documentation</li>
-          <li>transitioning from a website builder to a custom website</li>
-          <li>complex projects that range from a few days to several months</li>
         </ul>
         <p className="services-details">
-          Please reach out to me via the <a href="/#contact">contact form</a> if
-          interested in learning more.
+          Please reach out via the <a href="/#contact">contact form</a> if you
+          would like to schedule a consultation.
         </p>
       </Section>
     </>
