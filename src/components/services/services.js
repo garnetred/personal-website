@@ -5,10 +5,8 @@ export default function ServicesPage() {
   return (
     <>
       <Seo useTitleTemplate={true} />
-      <Section heading="Services" anchor="services">
-        <p className="services-details">
-          I specialize in offering the below services:
-        </p>
+      <Section heading="Services" anchor="services" className="hi">
+        <p className="services-details">I specialize in the below services:</p>
         <ul>
           <li>automating data entry via programming</li>
           <li>maintaining existing websites or legacy applications</li>
@@ -19,7 +17,7 @@ export default function ServicesPage() {
         </ul>
         <p className="services-details">
           Please reach out via the <a href="/#contact">contact form</a> if you
-          would like to learn more.
+          would like to schedule a consultation.
         </p>
       </Section>
     </>
