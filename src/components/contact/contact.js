@@ -77,6 +77,7 @@ export default function ContactPage() {
                 name="name"
                 aria-label="name"
                 value={name}
+                autocomplete="name"
                 onChange={(e) => handleChange(e)}
                 required
               />
@@ -88,6 +89,7 @@ export default function ContactPage() {
                 name="email"
                 aria-label="email"
                 value={email}
+                autcomplete="email"
                 onChange={(e) => handleChange(e)}
                 required
               />
@@ -103,7 +105,7 @@ export default function ContactPage() {
                 required
               />
               <button type="submit" className="contact-form-button">
-                submit
+                send
               </button>
             </form>
           </section>
