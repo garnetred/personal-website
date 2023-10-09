@@ -16,8 +16,8 @@ export default function IndexPage() {
       <Seo title="December Design & Development LLC" />
       <Page>
         <HeroSection sectionId="hero" />
-        <AboutSection sectionId="about" heading="About Me" />
         <ServicesPage />
+        <AboutSection sectionId="about" heading="About Me" />
         <ProjectsSection sectionId="portfolio" heading="Portfolio" />
         <ContactPage />
       </Page>
